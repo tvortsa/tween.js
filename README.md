@@ -1,6 +1,6 @@
 # tween.js
 
-JavaScript tweening engine for easy animations, incorporating optimised Robert Penner's equations.
+JavaScript tweening движок для облегчения анимации, включая оптимизированные уравнения Роберта Реннера.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -25,15 +25,15 @@ function animate(time) {
 }
 ```
 
-## Installation
+## Установка
 
-Download the [library](https://raw.githubusercontent.com/tweenjs/tween.js/master/src/Tween.js) and include it in your code:
+Загрузите [library](https://raw.githubusercontent.com/tweenjs/tween.js/master/src/Tween.js) и вставьте в ваш код:
 
 ```html
 <script src="js/Tween.js"></script>
 ```
 
-You can also reference a CDN-hosted version in your code, thanks to cdnjs. For example:
+Можете как вариант сослаться на CDN-hosted версию, спасибо cdnjs. Например:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
@@ -41,9 +41,9 @@ You can also reference a CDN-hosted version in your code, thanks to cdnjs. For e
 
 See [tween.js](https://cdnjs.com/libraries/tween.js/) for more versions.
 
-### More advanced users might want to...
+### Продвинутые пользователи возможно захотят...
 
-#### Use `npm`
+#### Использовать `npm`
 
 ```bash
 npm install @tweenjs/tween.js
@@ -97,7 +97,7 @@ Then reference the library source:
 * [Tutorial](http://learningthreejs.com/blog/2011/08/17/tweenjs-for-smooth-animation/)  using tween.js with three.js
 * Also: [libtween](https://github.com/jsm174/libtween), a port of tween.js to C by [jsm174](https://github.com/jsm174)
 
-## Examples
+## Примеры
 
 <table>
 	<tr>
@@ -233,7 +233,7 @@ Then reference the library source:
 	</tr>
 </table>
 
-## Tests
+## Тесты
 
 You need to install `npm` first--this comes with node.js, so install that one first. Then, cd to `tween.js`'s directory and run:
 
